@@ -1,3 +1,7 @@
+import java.awt.Button;
+import java.awt.Color;
+import java.awt.Dialog;
+import java.awt.Font;
 import java.awt.Frame;
 import java.awt.GridLayout;
 import java.awt.Label;
@@ -6,11 +10,6 @@ import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
 import java.awt.event.WindowEvent;
 import java.awt.event.WindowListener;
-import java.awt.Button;
-import java.awt.Color;
-import java.awt.Dialog;
-import java.awt.Font;
-import java.util.Random;
 
 
 public class Main extends Frame implements WindowListener, ColorTileGUI {
@@ -52,7 +51,7 @@ public class Main extends Frame implements WindowListener, ColorTileGUI {
 
     @Override
     public void windowOpened(WindowEvent e) {
-
+    
     }
 
     @Override
